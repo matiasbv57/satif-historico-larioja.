@@ -1,0 +1,53 @@
+﻿
+:root {
+    --satif-bg: #0B1635;
+    --satif-sidebar: #102650;
+    --satif-panel: #123B88;
+    --satif-accent: #FFD83D;
+}
+
+.stApp {
+    background-color: #0B1635;
+    color: #FFFFFF;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #102650;
+    border-right: 1px solid #31569B;
+}
+
+[data-testid="stSidebarNav"] a {
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+[data-testid="stSidebarNav"] a[aria-current="page"] {
+    background-color: #2563C7;
+}
+
+h1, h2, h3 {
+    color: #FFFFFF;
+}
+
+[data-testid="stMetric"] {
+    background-color: #123B88;
+    border: 1px solid #315FA9;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+[data-testid="stMetricValue"] {
+    color: #FFD83D;
+}
+
+div.stButton > button[kind="primary"] {
+    background-color: #FFD83D;
+    color: #0B1635;
+    border: none;
+    font-weight: 700;
+}
+
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+}

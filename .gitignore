@@ -1,0 +1,37 @@
+﻿# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Credenciales y configuraciones privadas
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Descargas originales de NASA
+data/raw/
+data/historico_completo_2000_2026/
+*.zip
+
+# Datos procesados: excluir todo por defecto
+data/processed/*
+
+# Incluir solamente los datos de la web
+!data/processed/firms_historico_departamentos_completo.csv
+!data/processed/calendario_dias_actividad_combinada.csv
+!data/processed/firms_la_rioja.csv
+!data/processed/grupos_observacion_v2.csv
+!data/processed/firms_agrupado_v2.csv
+!data/processed/correspondencias_grupos_v2.csv
+!data/processed/episodios_principales_cartografia.csv
+
+# Archivos locales
+.vscode/
+*.log
